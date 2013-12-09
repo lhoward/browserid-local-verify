@@ -93,6 +93,7 @@ Or you can allocate a library instance.  This allows you to specify configuratio
 * **assertion**: the assertion to verify
 * **audience**: the expected assertion audience
 * **trustedIssuers**: An array of domains that will be trusted to vouch for any identity, regardless of the authority as determined from the email addresses domain.
+* **flattenAttrCerts**: whether to merge claims from attribute certificates into the top-level idpClaims (otherwise they are available as attrCertClaims)
 
 ## debug output and metrics
 
